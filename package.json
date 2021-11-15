@@ -1,0 +1,14 @@
+{
+    "name": "graphql-tutorial",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --experimental-specifier-resolution=node src/server.js"
+    },
+    "dependencies": {
+        "apollo-server": "^3.5.0",
+        "graphql": "^16.0.1"
+    }
+}
